@@ -7,6 +7,7 @@ This repository hosts a simulation framework for the game **Quarto**, exploring 
 ## Features
 
 - **Multiple Gameplay Strategies**:
+  All gameplay strategies implement a check to avoid obivous mistakes of selecting a piece that would give an immediate win to the opponent. We develop a set of 'safe pieces' by (1) selecting each of available piece and (2) positioning the selected available piece in open slots and (3) confirm that the selected available piece would not give an immediate win 
   - **Random**: Completely random moves.
   - **Deterministic**: Predictable logic-based decisions.
   - **Heuristic**: Decision-making based on game state analysis.
