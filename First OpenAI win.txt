@@ -1,0 +1,326 @@
+Game started between Player 1 (MONOMANIAC) and Player 2 (OPENAI_PLAYER)!
+
+    Turn Number: 1,
+    Action Type: Choose Piece,
+    Chooser: MONOMANIAC,
+    Placer: OPENAI_PLAYER,
+    Piece Chosen: Piece('square', 'short', 'black', 'full'),
+    Board State: [
+row 0: [None, None, None, None],
+row 1: [None, None, None, None],
+row 2: [None, None, None, None],
+row 3: [None, None, None, None]
+],
+    Game Outcome: In-play
+
+    Turn Number: 1,
+    Action Type: Place Piece,
+    Chooser: MONOMANIAC,
+    Placer: OPENAI_PLAYER,
+    Piece Chosen: Piece('square', 'short', 'black', 'full'),
+    Board State: [
+row 0: [Piece('square', 'short', 'black', 'full'), None, None, None],
+row 1: [None, None, None, None],
+row 2: [None, None, None, None],
+row 3: [None, None, None, None]
+],
+    Game Outcome: In-play
+
+    Turn Number: 2,
+    Action Type: Choose Piece,
+    Chooser: OPENAI_PLAYER,
+    Placer: MONOMANIAC,
+    Piece Chosen: Piece('circular', 'tall', 'white', 'hollow'),
+    Board State: [
+row 0: [Piece('square', 'short', 'black', 'full'), None, None, None],
+row 1: [None, None, None, None],
+row 2: [None, None, None, None],
+row 3: [None, None, None, None]
+],
+    Game Outcome: In-play
+
+    Turn Number: 2,
+    Action Type: Place Piece,
+    Chooser: OPENAI_PLAYER,
+    Placer: MONOMANIAC,
+    Piece Chosen: Piece('circular', 'tall', 'white', 'hollow'),
+    Board State: [
+row 0: [Piece('square', 'short', 'black', 'full'), None, None, Piece('circular', 'tall', 'white', 'hollow')],
+row 1: [None, None, None, None],
+row 2: [None, None, None, None],
+row 3: [None, None, None, None]
+],
+    Game Outcome: In-play
+
+    Turn Number: 3,
+    Action Type: Choose Piece,
+    Chooser: MONOMANIAC,
+    Placer: OPENAI_PLAYER,
+    Piece Chosen: Piece('circular', 'tall', 'white', 'full'),
+    Board State: [
+row 0: [Piece('square', 'short', 'black', 'full'), None, None, Piece('circular', 'tall', 'white', 'hollow')],
+row 1: [None, None, None, None],
+row 2: [None, None, None, None],
+row 3: [None, None, None, None]
+],
+    Game Outcome: In-play
+
+    Turn Number: 3,
+    Action Type: Place Piece,
+    Chooser: MONOMANIAC,
+    Placer: OPENAI_PLAYER,
+    Piece Chosen: Piece('circular', 'tall', 'white', 'full'),
+    Board State: [
+row 0: [Piece('square', 'short', 'black', 'full'), None, None, Piece('circular', 'tall', 'white', 'hollow')],
+row 1: [Piece('circular', 'tall', 'white', 'full'), None, None, None],
+row 2: [None, None, None, None],
+row 3: [None, None, None, None]
+],
+    Game Outcome: In-play
+
+    Turn Number: 4,
+    Action Type: Choose Piece,
+    Chooser: OPENAI_PLAYER,
+    Placer: MONOMANIAC,
+    Piece Chosen: Piece('square', 'tall', 'black', 'hollow'),
+    Board State: [
+row 0: [Piece('square', 'short', 'black', 'full'), None, None, Piece('circular', 'tall', 'white', 'hollow')],
+row 1: [Piece('circular', 'tall', 'white', 'full'), None, None, None],
+row 2: [None, None, None, None],
+row 3: [None, None, None, None]
+],
+    Game Outcome: In-play
+
+    Turn Number: 4,
+    Action Type: Place Piece,
+    Chooser: OPENAI_PLAYER,
+    Placer: MONOMANIAC,
+    Piece Chosen: Piece('square', 'tall', 'black', 'hollow'),
+    Board State: [
+row 0: [Piece('square', 'short', 'black', 'full'), None, None, Piece('circular', 'tall', 'white', 'hollow')],
+row 1: [Piece('circular', 'tall', 'white', 'full'), None, None, None],
+row 2: [Piece('square', 'tall', 'black', 'hollow'), None, None, None],
+row 3: [None, None, None, None]
+],
+    Game Outcome: In-play
+
+    Turn Number: 5,
+    Action Type: Choose Piece,
+    Chooser: MONOMANIAC,
+    Placer: OPENAI_PLAYER,
+    Piece Chosen: Piece('circular', 'tall', 'black', 'hollow'),
+    Board State: [
+row 0: [Piece('square', 'short', 'black', 'full'), None, None, Piece('circular', 'tall', 'white', 'hollow')],
+row 1: [Piece('circular', 'tall', 'white', 'full'), None, None, None],
+row 2: [Piece('square', 'tall', 'black', 'hollow'), None, None, None],
+row 3: [None, None, None, None]
+],
+    Game Outcome: In-play
+
+    Turn Number: 5,
+    Action Type: Place Piece,
+    Chooser: MONOMANIAC,
+    Placer: OPENAI_PLAYER,
+    Piece Chosen: Piece('circular', 'tall', 'black', 'hollow'),
+    Board State: [
+row 0: [Piece('square', 'short', 'black', 'full'), None, None, Piece('circular', 'tall', 'white', 'hollow')],
+row 1: [Piece('circular', 'tall', 'white', 'full'), None, None, None],
+row 2: [Piece('square', 'tall', 'black', 'hollow'), None, None, None],
+row 3: [Piece('circular', 'tall', 'black', 'hollow'), None, None, None]
+],
+    Game Outcome: In-play
+
+    Turn Number: 6,
+    Action Type: Choose Piece,
+    Chooser: OPENAI_PLAYER,
+    Placer: MONOMANIAC,
+    Piece Chosen: Piece('square', 'short', 'white', 'full'),
+    Board State: [
+row 0: [Piece('square', 'short', 'black', 'full'), None, None, Piece('circular', 'tall', 'white', 'hollow')],
+row 1: [Piece('circular', 'tall', 'white', 'full'), None, None, None],
+row 2: [Piece('square', 'tall', 'black', 'hollow'), None, None, None],
+row 3: [Piece('circular', 'tall', 'black', 'hollow'), None, None, None]
+],
+    Game Outcome: In-play
+
+    Turn Number: 6,
+    Action Type: Place Piece,
+    Chooser: OPENAI_PLAYER,
+    Placer: MONOMANIAC,
+    Piece Chosen: Piece('square', 'short', 'white', 'full'),
+    Board State: [
+row 0: [Piece('square', 'short', 'black', 'full'), None, None, Piece('circular', 'tall', 'white', 'hollow')],
+row 1: [Piece('circular', 'tall', 'white', 'full'), None, None, Piece('square', 'short', 'white', 'full')],
+row 2: [Piece('square', 'tall', 'black', 'hollow'), None, None, None],
+row 3: [Piece('circular', 'tall', 'black', 'hollow'), None, None, None]
+],
+    Game Outcome: In-play
+
+    Turn Number: 7,
+    Action Type: Choose Piece,
+    Chooser: MONOMANIAC,
+    Placer: OPENAI_PLAYER,
+    Piece Chosen: Piece('square', 'tall', 'black', 'full'),
+    Board State: [
+row 0: [Piece('square', 'short', 'black', 'full'), None, None, Piece('circular', 'tall', 'white', 'hollow')],
+row 1: [Piece('circular', 'tall', 'white', 'full'), None, None, Piece('square', 'short', 'white', 'full')],
+row 2: [Piece('square', 'tall', 'black', 'hollow'), None, None, None],
+row 3: [Piece('circular', 'tall', 'black', 'hollow'), None, None, None]
+],
+    Game Outcome: In-play
+
+    Turn Number: 7,
+    Action Type: Place Piece,
+    Chooser: MONOMANIAC,
+    Placer: OPENAI_PLAYER,
+    Piece Chosen: Piece('square', 'tall', 'black', 'full'),
+    Board State: [
+row 0: [Piece('square', 'short', 'black', 'full'), None, None, Piece('circular', 'tall', 'white', 'hollow')],
+row 1: [Piece('circular', 'tall', 'white', 'full'), None, None, Piece('square', 'short', 'white', 'full')],
+row 2: [Piece('square', 'tall', 'black', 'hollow'), Piece('square', 'tall', 'black', 'full'), None, None],
+row 3: [Piece('circular', 'tall', 'black', 'hollow'), None, None, None]
+],
+    Game Outcome: In-play
+
+    Turn Number: 8,
+    Action Type: Choose Piece,
+    Chooser: OPENAI_PLAYER,
+    Placer: MONOMANIAC,
+    Piece Chosen: Piece('circular', 'short', 'white', 'full'),
+    Board State: [
+row 0: [Piece('square', 'short', 'black', 'full'), None, None, Piece('circular', 'tall', 'white', 'hollow')],
+row 1: [Piece('circular', 'tall', 'white', 'full'), None, None, Piece('square', 'short', 'white', 'full')],
+row 2: [Piece('square', 'tall', 'black', 'hollow'), Piece('square', 'tall', 'black', 'full'), None, None],
+row 3: [Piece('circular', 'tall', 'black', 'hollow'), None, None, None]
+],
+    Game Outcome: In-play
+
+    Turn Number: 8,
+    Action Type: Place Piece,
+    Chooser: OPENAI_PLAYER,
+    Placer: MONOMANIAC,
+    Piece Chosen: Piece('circular', 'short', 'white', 'full'),
+    Board State: [
+row 0: [Piece('square', 'short', 'black', 'full'), None, None, Piece('circular', 'tall', 'white', 'hollow')],
+row 1: [Piece('circular', 'tall', 'white', 'full'), None, Piece('circular', 'short', 'white', 'full'), Piece('square', 'short', 'white', 'full')],
+row 2: [Piece('square', 'tall', 'black', 'hollow'), Piece('square', 'tall', 'black', 'full'), None, None],
+row 3: [Piece('circular', 'tall', 'black', 'hollow'), None, None, None]
+],
+    Game Outcome: In-play
+
+    Turn Number: 9,
+    Action Type: Choose Piece,
+    Chooser: MONOMANIAC,
+    Placer: OPENAI_PLAYER,
+    Piece Chosen: Piece('circular', 'short', 'white', 'hollow'),
+    Board State: [
+row 0: [Piece('square', 'short', 'black', 'full'), None, None, Piece('circular', 'tall', 'white', 'hollow')],
+row 1: [Piece('circular', 'tall', 'white', 'full'), None, Piece('circular', 'short', 'white', 'full'), Piece('square', 'short', 'white', 'full')],
+row 2: [Piece('square', 'tall', 'black', 'hollow'), Piece('square', 'tall', 'black', 'full'), None, None],
+row 3: [Piece('circular', 'tall', 'black', 'hollow'), None, None, None]
+],
+    Game Outcome: In-play
+
+    Turn Number: 9,
+    Action Type: Place Piece,
+    Chooser: MONOMANIAC,
+    Placer: OPENAI_PLAYER,
+    Piece Chosen: Piece('circular', 'short', 'white', 'hollow'),
+    Board State: [
+row 0: [Piece('square', 'short', 'black', 'full'), Piece('circular', 'short', 'white', 'hollow'), None, Piece('circular', 'tall', 'white', 'hollow')],
+row 1: [Piece('circular', 'tall', 'white', 'full'), None, Piece('circular', 'short', 'white', 'full'), Piece('square', 'short', 'white', 'full')],
+row 2: [Piece('square', 'tall', 'black', 'hollow'), Piece('square', 'tall', 'black', 'full'), None, None],
+row 3: [Piece('circular', 'tall', 'black', 'hollow'), None, None, None]
+],
+    Game Outcome: In-play
+
+    Turn Number: 10,
+    Action Type: Choose Piece,
+    Chooser: OPENAI_PLAYER,
+    Placer: MONOMANIAC,
+    Piece Chosen: Piece('square', 'short', 'black', 'hollow'),
+    Board State: [
+row 0: [Piece('square', 'short', 'black', 'full'), Piece('circular', 'short', 'white', 'hollow'), None, Piece('circular', 'tall', 'white', 'hollow')],
+row 1: [Piece('circular', 'tall', 'white', 'full'), None, Piece('circular', 'short', 'white', 'full'), Piece('square', 'short', 'white', 'full')],
+row 2: [Piece('square', 'tall', 'black', 'hollow'), Piece('square', 'tall', 'black', 'full'), None, None],
+row 3: [Piece('circular', 'tall', 'black', 'hollow'), None, None, None]
+],
+    Game Outcome: In-play
+
+    Turn Number: 10,
+    Action Type: Place Piece,
+    Chooser: OPENAI_PLAYER,
+    Placer: MONOMANIAC,
+    Piece Chosen: Piece('square', 'short', 'black', 'hollow'),
+    Board State: [
+row 0: [Piece('square', 'short', 'black', 'full'), Piece('circular', 'short', 'white', 'hollow'), None, Piece('circular', 'tall', 'white', 'hollow')],
+row 1: [Piece('circular', 'tall', 'white', 'full'), Piece('square', 'short', 'black', 'hollow'), Piece('circular', 'short', 'white', 'full'), Piece('square', 'short', 'white', 'full')],
+row 2: [Piece('square', 'tall', 'black', 'hollow'), Piece('square', 'tall', 'black', 'full'), None, None],
+row 3: [Piece('circular', 'tall', 'black', 'hollow'), None, None, None]
+],
+    Game Outcome: In-play
+
+    Turn Number: 11,
+    Action Type: Choose Piece,
+    Chooser: MONOMANIAC,
+    Placer: OPENAI_PLAYER,
+    Piece Chosen: Piece('circular', 'short', 'black', 'hollow'),
+    Board State: [
+row 0: [Piece('square', 'short', 'black', 'full'), Piece('circular', 'short', 'white', 'hollow'), None, Piece('circular', 'tall', 'white', 'hollow')],
+row 1: [Piece('circular', 'tall', 'white', 'full'), Piece('square', 'short', 'black', 'hollow'), Piece('circular', 'short', 'white', 'full'), Piece('square', 'short', 'white', 'full')],
+row 2: [Piece('square', 'tall', 'black', 'hollow'), Piece('square', 'tall', 'black', 'full'), None, None],
+row 3: [Piece('circular', 'tall', 'black', 'hollow'), None, None, None]
+],
+    Game Outcome: In-play
+
+    Turn Number: 11,
+    Action Type: Place Piece,
+    Chooser: MONOMANIAC,
+    Placer: OPENAI_PLAYER,
+    Piece Chosen: Piece('circular', 'short', 'black', 'hollow'),
+    Board State: [
+row 0: [Piece('square', 'short', 'black', 'full'), Piece('circular', 'short', 'white', 'hollow'), None, Piece('circular', 'tall', 'white', 'hollow')],
+row 1: [Piece('circular', 'tall', 'white', 'full'), Piece('square', 'short', 'black', 'hollow'), Piece('circular', 'short', 'white', 'full'), Piece('square', 'short', 'white', 'full')],
+row 2: [Piece('square', 'tall', 'black', 'hollow'), Piece('square', 'tall', 'black', 'full'), Piece('circular', 'short', 'black', 'hollow'), None],
+row 3: [Piece('circular', 'tall', 'black', 'hollow'), None, None, None]
+],
+    Game Outcome: In-play
+
+    Turn Number: 12,
+    Action Type: Choose Piece,
+    Chooser: OPENAI_PLAYER,
+    Placer: MONOMANIAC,
+    Piece Chosen: Piece('square', 'tall', 'white', 'hollow'),
+    Board State: [
+row 0: [Piece('square', 'short', 'black', 'full'), Piece('circular', 'short', 'white', 'hollow'), None, Piece('circular', 'tall', 'white', 'hollow')],
+row 1: [Piece('circular', 'tall', 'white', 'full'), Piece('square', 'short', 'black', 'hollow'), Piece('circular', 'short', 'white', 'full'), Piece('square', 'short', 'white', 'full')],
+row 2: [Piece('square', 'tall', 'black', 'hollow'), Piece('square', 'tall', 'black', 'full'), Piece('circular', 'short', 'black', 'hollow'), None],
+row 3: [Piece('circular', 'tall', 'black', 'hollow'), None, None, None]
+],
+    Game Outcome: In-play
+
+    Turn Number: 12,
+    Action Type: Place Piece,
+    Chooser: OPENAI_PLAYER,
+    Placer: MONOMANIAC,
+    Piece Chosen: Piece('square', 'tall', 'white', 'hollow'),
+    Board State: [
+row 0: [Piece('square', 'short', 'black', 'full'), Piece('circular', 'short', 'white', 'hollow'), None, Piece('circular', 'tall', 'white', 'hollow')],
+row 1: [Piece('circular', 'tall', 'white', 'full'), Piece('square', 'short', 'black', 'hollow'), Piece('circular', 'short', 'white', 'full'), Piece('square', 'short', 'white', 'full')],
+row 2: [Piece('square', 'tall', 'black', 'hollow'), Piece('square', 'tall', 'black', 'full'), Piece('circular', 'short', 'black', 'hollow'), Piece('square', 'tall', 'white', 'hollow')],
+row 3: [Piece('circular', 'tall', 'black', 'hollow'), None, None, None]
+],
+    Game Outcome: In-play
+
+    Turn Number: 12,
+    Action Type: Game Ended,
+    Chooser: MONOMANIAC,
+    Placer: OPENAI_PLAYER,
+    Piece Chosen: Piece('square', 'tall', 'white', 'hollow'),
+    Board State: [
+row 0: [Piece('square', 'short', 'black', 'full'), Piece('circular', 'short', 'white', 'hollow'), None, Piece('circular', 'tall', 'white', 'hollow')],
+row 1: [Piece('circular', 'tall', 'white', 'full'), Piece('square', 'short', 'black', 'hollow'), Piece('circular', 'short', 'white', 'full'), Piece('square', 'short', 'white', 'full')],
+row 2: [Piece('square', 'tall', 'black', 'hollow'), Piece('square', 'tall', 'black', 'full'), Piece('circular', 'short', 'black', 'hollow'), Piece('square', 'tall', 'white', 'hollow')],
+row 3: [Piece('circular', 'tall', 'black', 'hollow'), None, None, None]
+],
+    Game Outcome: Player 2 (OPENAI_PLAYER) won the game cause Player 1 (MONOMANIAC) can't pick a piece without losing!

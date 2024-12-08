@@ -1,0 +1,127 @@
+Piece Chosen{'Turn Number': 1, 'Action Type': 'Choose Piece', 'Chooser': 'RANDOM', 'Placer': 'OPENAI_PLAYER', 'Piece Chosen'
+: Piece('circular', 'tall', 'blue', 'full'), 
+ 'Board State': '[
+[None, None, None, None],
+[None, None, None, None],
+[None, None, None, None],
+[None, None, None, None]
+]', 'Game Outcome': 'In-play'}
+{'Turn Number': 1, 'Action Type': 'Place Piece', 'Chooser': 'RANDOM', 'Placer': 'OPENAI_PLAYER', 'Piece Chosen'
+: Piece('circular', 'tall', 'blue', 'full'), 'Board State': "[
+[Piece('circular', 'tall', 'blue', 'full'), None, None, None],
+[None, None, None, None],
+[None, None, None, None],
+[None, None, None, None]
+]", 'Game Outcome': 'In-play'}
+{'Turn Number': 2, 'Action Type': 'Choose Piece', 'Chooser': 'OPENAI_PLAYER', 'Placer': 'RANDOM', 'Piece Chosen'
+: Piece('square', 'short', 'red', 'hollow'), 'Board State': "[
+[Piece('circular', 'tall', 'blue', 'full'), None, None, None],
+[None, None, None, None],
+[None, None, None, None],
+[None, None, None, None]
+]", 'Game Outcome': 'In-play'}
+{'Turn Number': 2, 'Action Type': 'Place Piece', 'Chooser': 'OPENAI_PLAYER', 'Placer': 'RANDOM', 'Piece Chosen'
+: Piece('square', 'short', 'red', 'hollow'), 'Board State': "[
+[Piece('circular', 'tall', 'blue', 'full'), None, None, None],
+[None, None, None, None],
+[None, Piece('square', 'short', 'red', 'hollow'), None, None],
+[None, None, None, None]
+]", 'Game Outcome': 'In-play'}
+{'Turn Number': 3, 'Action Type': 'Choose Piece', 'Chooser': 'RANDOM', 'Placer': 'OPENAI_PLAYER', 'Piece Chosen'
+: Piece('circular', 'short', 'blue', 'hollow'), 'Board State': "[
+[Piece('circular', 'tall', 'blue', 'full'), None, None, None],
+[None, None, None, None],
+[None, Piece('square', 'short', 'red', 'hollow'), None, None],
+[None, None, None, None]
+]", 'Game Outcome': 'In-play'}
+{'Turn Number': 3, 'Action Type': 'Place Piece', 'Chooser': 'RANDOM', 'Placer': 'OPENAI_PLAYER', 'Piece Chosen'
+: Piece('circular', 'short', 'blue', 'hollow'), 'Board State': "[
+[Piece('circular', 'tall', 'blue', 'full'), Piece('circular', 'short', 'blue', 'hollow'), None, None],
+[None, None, None, None],
+[None, Piece('square', 'short', 'red', 'hollow'), None, None],
+[None, None, None, None]
+]", 'Game Outcome': 'In-play'}
+{'Turn Number': 4, 'Action Type': 'Choose Piece', 'Chooser': 'OPENAI_PLAYER', 'Placer': 'RANDOM', 'Piece Chosen'
+: Piece('square', 'tall', 'red', 'full'), 'Board State': "[
+[Piece('circular', 'tall', 'blue', 'full'), Piece('circular', 'short', 'blue', 'hollow'), None, None],
+[None, None, None, None],
+[None, Piece('square', 'short', 'red', 'hollow'), None, None],
+[None, None, None, None]
+]", 'Game Outcome': 'In-play'}
+{'Turn Number': 4, 'Action Type': 'Place Piece', 'Chooser': 'OPENAI_PLAYER', 'Placer': 'RANDOM', 'Piece Chosen'
+: Piece('square', 'tall', 'red', 'full'), 'Board State': "[
+[Piece('circular', 'tall', 'blue', 'full'), Piece('circular', 'short', 'blue', 'hollow'), None, None],
+[None, None, None, None],
+[None, Piece('square', 'short', 'red', 'hollow'), None, Piece('square', 'tall', 'red', 'full')],
+[None, None, None, None]
+]", 'Game Outcome': 'In-play'}
+{'Turn Number': 5, 'Action Type': 'Choose Piece', 'Chooser': 'RANDOM', 'Placer': 'OPENAI_PLAYER', 'Piece Chosen'
+: Piece('square', 'tall', 'red', 'hollow'), 'Board State': "[
+[Piece('circular', 'tall', 'blue', 'full'), Piece('circular', 'short', 'blue', 'hollow'), None, None],
+[None, None, None, None],
+[None, Piece('square', 'short', 'red', 'hollow'), None, Piece('square', 'tall', 'red', 'full')],
+[None, None, None, None]
+]", 'Game Outcome': 'In-play'}
+{'Turn Number': 5, 'Action Type': 'Place Piece', 'Chooser': 'RANDOM', 'Placer': 'OPENAI_PLAYER', 'Piece Chosen'
+: Piece('square', 'tall', 'red', 'hollow'), 'Board State': "[
+[Piece('circular', 'tall', 'blue', 'full'), Piece('circular', 'short', 'blue', 'hollow'), None, None],
+[None, Piece('square', 'tall', 'red', 'hollow'), None, None],
+[None, Piece('square', 'short', 'red', 'hollow'), None, Piece('square', 'tall', 'red', 'full')],
+[None, None, None, None]
+]", 'Game Outcome': 'In-play'}
+{'Turn Number': 6, 'Action Type': 'Choose Piece', 'Chooser': 'OPENAI_PLAYER', 'Placer': 'RANDOM', 'Piece Chosen'
+: Piece('circular', 'short', 'red', 'hollow'), 'Board State': "[
+[Piece('circular', 'tall', 'blue', 'full'), Piece('circular', 'short', 'blue', 'hollow'), None, None],
+[None, Piece('square', 'tall', 'red', 'hollow'), None, None],
+[None, Piece('square', 'short', 'red', 'hollow'), None, Piece('square', 'tall', 'red', 'full')],
+[None, None, None, None]
+]", 'Game Outcome': 'In-play'}
+{'Turn Number': 6, 'Action Type': 'Place Piece', 'Chooser': 'OPENAI_PLAYER', 'Placer': 'RANDOM', 'Piece Chosen'
+: Piece('circular', 'short', 'red', 'hollow'), 'Board State': "[
+[Piece('circular', 'tall', 'blue', 'full'), Piece('circular', 'short', 'blue', 'hollow'), None, None],
+[None, Piece('square', 'tall', 'red', 'hollow'), None, None],
+[Piece('circular', 'short', 'red', 'hollow'), Piece('square', 'short', 'red', 'hollow'), None, Piece('square', 'tall', 'red', 'full')],
+[None, None, None, None]
+]", 'Game Outcome': 'In-play'}
+{'Turn Number': 7, 'Action Type': 'Choose Piece', 'Chooser': 'RANDOM', 'Placer': 'OPENAI_PLAYER', 'Piece Chosen'
+: Piece('square', 'short', 'blue', 'full'), 'Board State': "[
+[Piece('circular', 'tall', 'blue', 'full'), Piece('circular', 'short', 'blue', 'hollow'), None, None],
+[None, Piece('square', 'tall', 'red', 'hollow'), None, None],
+[Piece('circular', 'short', 'red', 'hollow'), Piece('square', 'short', 'red', 'hollow'), None, Piece('square', 'tall', 'red', 'full')],
+[None, None, None, None]
+]", 'Game Outcome': 'In-play'}
+{'Turn Number': 7, 'Action Type': 'Place Piece', 'Chooser': 'RANDOM', 'Placer': 'OPENAI_PLAYER', 'Piece Chosen'
+: Piece('square', 'short', 'blue', 'full'), 'Board State': "[
+[Piece('circular', 'tall', 'blue', 'full'), Piece('circular', 'short', 'blue', 'hollow'), None, None],
+[None, Piece('square', 'tall', 'red', 'hollow'), None, None],
+[Piece('circular', 'short', 'red', 'hollow'), Piece('square', 'short', 'red', 'hollow'), None, Piece('square', 'tall', 'red', 'full')],
+[Piece('square', 'short', 'blue', 'full'), None, None, None]
+]", 'Game Outcome': 'In-play'}
+{'Turn Number': 8, 'Action Type': 'Choose Piece', 'Chooser': 'OPENAI_PLAYER', 'Placer': 'RANDOM', 'Piece Chosen'
+: Piece('circular', 'tall', 'red', 'hollow'), 'Board State': "[
+[Piece('circular', 'tall', 'blue', 'full'), Piece('circular', 'short', 'blue', 'hollow'), None, None],
+[None, Piece('square', 'tall', 'red', 'hollow'), None, None],
+[Piece('circular', 'short', 'red', 'hollow'), Piece('square', 'short', 'red', 'hollow'), None, Piece('square', 'tall', 'red', 'full')],
+[Piece('square', 'short', 'blue', 'full'), None, None, None]
+]", 'Game Outcome': 'In-play'}
+{'Turn Number': 8, 'Action Type': 'Place Piece', 'Chooser': 'OPENAI_PLAYER', 'Placer': 'RANDOM', 'Piece Chosen'
+: Piece('circular', 'tall', 'red', 'hollow'), 'Board State': "[
+[Piece('circular', 'tall', 'blue', 'full'), Piece('circular', 'short', 'blue', 'hollow'), None, None],
+[None, Piece('square', 'tall', 'red', 'hollow'), None, None],
+[Piece('circular', 'short', 'red', 'hollow'), Piece('square', 'short', 'red', 'hollow'), None, Piece('square', 'tall', 'red', 'full')],
+[Piece('square', 'short', 'blue', 'full'), Piece('circular', 'tall', 'red', 'hollow'), None, None]
+]", 'Game Outcome': 'In-play'}
+{'Turn Number': 8, 'Action Type': 'Game Ended', 'Chooser': 'OPENAI_PLAYER', 'Placer': 'RANDOM', 'Piece Chosen'
+: Piece('circular', 'tall', 'red', 'hollow'), 'Board State': "[
+[Piece('circular', 'tall', 'blue', 'full'), Piece('circular', 'short', 'blue', 'hollow'), None, None],
+[None, Piece('square', 'tall', 'red', 'hollow'), None, None],
+[Piece('circular', 'short', 'red', 'hollow'), Piece('square', 'short', 'red', 'hollow'), None, Piece('square', 'tall', 'red', 'full')],
+[Piece('square', 'short', 'blue', 'full'), Piece('circular', 'tall', 'red', 'hollow'), None, None]
+]", 'Game Outcome': 'Player 1 (RANDOM) won the game!'}
+{'Turn Number': 8, 'Action Type': 'Game Ended', 'Chooser': 'OPENAI_PLAYER', 'Placer': 'RANDOM', 'Piece Chosen'
+: Piece('circular', 'tall', 'red', 'hollow'), 'Board State': "[
+[Piece('circular', 'tall', 'blue', 'full'), Piece('circular', 'short', 'blue', 'hollow'), None, None],
+[None, Piece('square', 'tall', 'red', 'hollow'), None, None],
+[Piece('circular', 'short', 'red', 'hollow'), Piece('square', 'short', 'red', 'hollow'), None, Piece('square', 'tall', 'red', 'full')],
+[Piece('square', 'short', 'blue', 'full'), Piece('circular', 'tall', 'red', 'hollow'), None, None]
+]", 'Game Outcome': 'Player 1 (RANDOM) won the game!'}
