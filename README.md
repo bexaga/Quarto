@@ -71,6 +71,8 @@ quarto_game.py: Implements the game mechanics, board state management, and winne
 Logs
 quarto_boards.log: Records snapshots of board states after each move.
 consolidated_log.csv: Logs all moves, board states, and outcomes for analysis.
+
+---
 How It Works
 Simulation:
 
