@@ -222,10 +222,20 @@ class QuartoGame:
             # If every available piece results in a win for the opponent then current player loses
             # (If currrent player cannot pick a piece without losing then he loses)
             if all(self.creates_win_for_opponent(piece) for piece in self.available_pieces):
-                self.append_log(action_type = 2, piece_selected=selected_piece, outcome=f"{self.other_player.name} won the game cause {self.current_player.name} can't pick a piece without losing!")
-                self.log.append((self.other_player.name, "WIN", selected_piece, position))
+                # The current player cannot choose a piece without immediately losing.
+                # ``selected_piece`` and ``position`` are undefined in this branch, so
+                # log the outcome without referencing them.
+                self.append_log(
+                    action_type=2,
+                    piece_selected=None,
+                    outcome=(
+                        f"{self.other_player.name} won the game cause {self.current_player.name} "
+                        "can't pick a piece without losing!"
+                    ),
+                )
+                self.log.append((self.other_player.name, "WIN", None, None))
                 self.log_board(comment=f"{self.other_player.name} won the game!")
-                
+
                 return self.other_player  # Return the winner
 
 
@@ -567,7 +577,8 @@ def simulate_games(num_games_per_combination):
     with open("quarto_boards.log", "w", encoding="utf-8") as file:
         file.write("\n".join(board_states_log))
 
-    save_consolidated_log
+    # Persist any remaining consolidated log entries to disk.
+    save_consolidated_log()
 
     for key, value in results.items():
         print(f"{key[0].name} vs {key[1].name}: Player 1 wins {value[0]}, Player 2 wins {value[1]}, Ties {value[2]}")
